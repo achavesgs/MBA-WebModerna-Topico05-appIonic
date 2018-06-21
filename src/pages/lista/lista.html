@@ -19,9 +19,13 @@
 <ion-content padding>
   <h2>Lista de Contatos</h2>
   <ion-list>
+    <!--
     <ion-item *ngFor="let contato of listaContatos">
       {{contato.nome}}
+    -->
+    <ion-item *ngFor="let contato of listaContatos.movies">
+      {{contato.title}}
     </ion-item>
   </ion-list>
-  
+
 </ion-content>

@@ -12,7 +12,8 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class RemoteServiceProvider {
 
-  url: string = "http://localhost:3000/contatos";
+  //url: string = "http://localhost:3000/contatos";
+  url: string = 'http://facebook.github.io/react-native/movies.json';
 
   constructor(public http: Http) { }
 
